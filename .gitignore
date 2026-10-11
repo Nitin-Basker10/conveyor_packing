@@ -1,0 +1,30 @@
+# --- Secrets (never commit) ---
+.env
+secrets.h
+**/secrets.h
+# Local firmware variant with hardcoded Wi-Fi credentials.
+firmware/packing_conveyor_local/
+
+# --- Supabase ---
+supabase/.temp/
+supabase/.branches/
+
+# --- Flutter / Dart ---
+app/.dart_tool/
+app/.flutter-plugins
+app/.flutter-plugins-dependencies
+app/build/
+app/.packages
+app/pubspec.lock
+**/.dart_tool/
+**/build/
+
+# --- IDE / OS ---
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# --- Node ---
+node_modules/
